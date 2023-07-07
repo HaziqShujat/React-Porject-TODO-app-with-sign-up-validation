@@ -57,4 +57,19 @@
   a:hover {
     text-decoration: underline;
   }
+  .btn-toggle-password {
+    width: 60px;
+    height: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #8f9c40;
+    border: none;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+   
+  }
+  
   

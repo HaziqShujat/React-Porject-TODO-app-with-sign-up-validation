@@ -1,6 +1,6 @@
-/* Form container */
+
 body{
-    background: #243b25;
+    background: rgb(70, 92, 86);
 }
 
 form {
@@ -9,6 +9,7 @@ form {
     padding: 20px;
     background-color: #f5f5f5;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgb(109, 108, 108);
    
    
   }
@@ -19,14 +20,14 @@ form {
     align-items: center;
     color: #ccc;
   }
-  /* Form labels */
+  
   form label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
   }
   
-  /* Form inputs */
+  
   form input[type="text"],
   form input[type="password"] {
     width: 100%;
@@ -37,7 +38,7 @@ form {
     margin-bottom: 15px;
   }
   
-  /* Submit button */
+ 
   form input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -48,8 +49,35 @@ form {
     cursor: pointer;
   }
  
-  /* Background color transition on submit */
+
   form.submitted {
     background-color: #493232;
     transition: background-color 0.5s;
   }
+  #signUpButton {
+    background-color: #174b4dda;
+    color: #ffffffd7;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+/*   
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+   */
